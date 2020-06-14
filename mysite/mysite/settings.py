@@ -126,4 +126,10 @@ USE_TZ = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = 'weidongqiang@163.com'
+EMAIL_HOST_PASSWORD = 'xxxxxxxxxxx'
+
 STATIC_URL = '/static/'
